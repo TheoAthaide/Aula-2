@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background: url('../img/fundo.jpg');
+    background-size: auto 120vh;
+    height: 100vh;   
+    font-family: arial;
+    font-size: 10px;
+  }
+
+/* se a tela tiver pelo menos 400px vai carregar os estilos abaixo */  
+
+@media (min-width: 400px) {
+    body{
+      font-size: 14px;
+
+    }
+}
+
+@media (min-width: 600px) {
+  body{
+    font-size: 18px;
+
+  }
+}
+
+@media (min-width: 1200px) {
+  body{
+    font-size: 20px;
+
+  }
+}
+
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+  
+  
+  .menu {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    /*height: 4vw;*/
+    
+    
+  }
+  
+  
+  .menu li {
+    list-style: none;
+    /*margin-top: 1vw;*/
+  }
+  
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  
+  }
+  
+  .menu a{
+    display: block;
+    padding: 10px;
+    /*font-size: 22px;*/
+
+  }
+
+
+  a {
+    text-decoration: none;
+    color: black;
+
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    
+  }
+  
+  .site-subtitle,
+  .site-title{
+   text-align: center;
+   color: grey;
+    
+  }
+
+  .site-title{
+    font-size: 4em;
+  }
+  
+  .site-subtitle{
+  font-style: italic;
+  }
+  
+  .rodape{
+  background-color: black;
+  }
+  
+figcaption {
+  color: grey;
+}
+
+.img-portfolio{
+  height: 180px;
+  width: 180px;
+}
+
+.marca {
+  color: grey;
+}
